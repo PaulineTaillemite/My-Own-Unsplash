@@ -57,7 +57,7 @@ body{
   }
   
 .infos {
-    /* border: 5px solid red; */
+    border: 5px solid red; 
     width: 350px;
     height: 350px;
     position: absolute;
@@ -68,6 +68,15 @@ body{
     border-radius: 5px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center;
+    /*  align-self: center;  */
+    /* align-content: center; */
+
+
   }
 
 
