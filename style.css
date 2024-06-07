@@ -78,20 +78,28 @@ body{
     align-items: center;
     justify-content: center;
     /* text-align: center;
-    /*  align-self: center;  */
+    /* align-self: center;  */
     /* align-content: center; */
   }
 
   .artistname{
     font-weight: 700;
-    /* font-size: 48px; */
     font-size: 3em;
     text-transform: uppercase;
     color: aliceblue;
   }
+  .portfolio,.instagram {
+    position: absolute; /* add this */
+    bottom: 0.2em; /* adjust the value to your liking */
+    left: 0.1em; /* adjust the value to your liking */
+  }
+  .portfolio {
+    padding-bottom: 1em;
+  }
+
 
 a{
-    color: #ffffff; /* or simply "white" */
+    color: #ffffff; 
     text-decoration: none;
     font-weight: 100;
     font-size: 0.8em;
