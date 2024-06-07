@@ -34,30 +34,35 @@ body{
 .img-wrapper {
     position: relative;
     display: inline-block; 
+    /* border: #ff90e8 solid 1px; */
+    
   }
   
 .img-wrapper:hover .img {
-    filter: blur(5px);
+    filter: blur(5px) brightness(50%);
     transition: filter 0.3s, transform 0.3s;
-    transform: scale(1.05);
+    transform: scale(1.05);    
   }
   
 .img {
+   /* border: blue dotted 1px; */
     position: relative;
     width: 400px;
     height: 400px;
     object-fit: cover;
     padding: 1rem;
-    filter: blur(0);
+    filter: blur(0);    
     transition: 0.5s ease-in-out;
   }
 
 .img-wrapper:hover .infos {
     opacity: 1;
   }
+
+
   
 .infos {
-    border: 5px solid red; 
+    /* border: 5px solid red;   */
     width: 350px;
     height: 350px;
     position: absolute;
@@ -75,7 +80,14 @@ body{
     /* text-align: center;
     /*  align-self: center;  */
     /* align-content: center; */
+  }
 
+  .artistname{
+    font-weight: 700;
+    /* font-size: 48px; */
+    font-size: 3em;
+    text-transform: uppercase;
+    color: aliceblue;
 
   }
 
