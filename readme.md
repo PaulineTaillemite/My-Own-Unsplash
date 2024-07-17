@@ -15,7 +15,8 @@ The primary goal of this project was to apply the knowledge I have gained in JS 
 One of the challenges encountered was to manage the display of each pictures'data not one by one, but using JS loop method.
 
 For example : 
-ICI METTRE IMAGE CODE
+![Example of looping data for display](./snippet.png)
+
 
 ## 🙏 Acknowledgments
 Special thanks to Ada Tech School for providing the educational foundation and resources necessary to complete this project.
